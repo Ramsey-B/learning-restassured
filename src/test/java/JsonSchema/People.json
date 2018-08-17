@@ -1,0 +1,25 @@
+{
+  "name": {"type": "string", "required": true},
+  "height": {"type": "string", "required": true},
+  "hair_color": {"type": "string"},
+  "skin_color": {"type": "string"},
+  "eye_color": {"type": "string"},
+  "birth_year": {"type": "string", "required": true},
+  "gender": {"type": "string", "required": true},
+  "homeworld": {"type": "string"},
+  "films": [
+    {"type": "string"}
+  ],
+  "species": [
+    {"type": "string"}
+  ],
+  "vehicles": [
+    {"type": "string"}
+  ],
+  "starships": [
+    {"type": "string"}
+  ],
+  "created": {"type": "string", "required": true},
+  "edited": {"type": "string", "required": true},
+  "url": {"type": "string", "required": true}
+}
